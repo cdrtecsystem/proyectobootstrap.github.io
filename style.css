@@ -1,0 +1,11 @@
+
+.carousel-item {
+    max-height: calc(100vh - 60px);
+  }
+.carousel-item img {
+    max-width: 100%;
+    margin: 20px auto ;
+}
+.navbar-brand img {
+    width: 30px;
+}
