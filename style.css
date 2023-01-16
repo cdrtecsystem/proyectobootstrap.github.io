@@ -114,15 +114,61 @@
 }
 
 .menu1__texto {
-  background: red;
+  background: white;
   border: 2px solid black;
   font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
-.menu1__texto--amarillo {
-  background: yellow;
+.menu1__texto--aqua {
+  background: aqua;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .menu1__texto--verde {
-  background: green;
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.puma-icon,
+.egret-icon,
+.sea-slug-icon {
+  height: 250px;
+  width: 400px;
+  border: 2px solid #333;
+  text-align: center;
+}
+
+.puma-icon {
+  background-image: url("img/plato1.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.sea-slug-icon {
+  background-image: url("img/plato2.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.egret-icon {
+  background-image: url("img/plato3.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.puma-icon:hover {
+  filter: grayscale(0%);
+}
+
+.sea-slug-icon:hover {
+  filter: grayscale(0%);
+}
+
+.egret-icon:hover {
+  filter: grayscale(0%);
 }
 
 /*# sourceMappingURL=style.css.map */
