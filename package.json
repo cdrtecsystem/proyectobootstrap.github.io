@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-n3",
+  "version": "1.0.0",
+  "description": "Restaurante Le Segund Lafrans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdrtecsystem/proyectogithub.git"
+  },
+  "keywords": [
+    "Restaurante",
+    "Le",
+    "Segund",
+    "Lafrans"
+  ],
+  "author": "Damian Romano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdrtecsystem/proyectogithub/issues"
+  },
+  "homepage": "https://github.com/cdrtecsystem/proyectogithub#readme"
+}
