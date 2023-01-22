@@ -169,3 +169,32 @@
   .egret-icon:hover {
     filter: grayscale(0%);
   }
+  
+  body .slider {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+  body .slider ul {
+    display: flex;
+    -webkit-animation: cambio 20s infinite alternate linear;
+            animation: cambio 20s infinite alternate linear;
+    width: 400%;
+    height: 600px;
+  }
+  body .slider li {
+    width: 100%;
+    list-style: none;
+  }
+  body .slider img {
+    width: 100%;
+    height: 100%;
+  }
+  body .section1 {
+    margin-top: 2%;
+  }
+  body .flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
